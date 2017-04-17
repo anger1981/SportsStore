@@ -18,7 +18,7 @@ namespace SportsStore.WebUI.Controllers
         {
             repository = repo;
             orderProcessor = proc;
-        }
+        }       
 
         public ViewResult Index(Cart cart, string returnUrl)
         {
